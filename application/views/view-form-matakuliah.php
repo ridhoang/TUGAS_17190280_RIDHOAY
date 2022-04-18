@@ -6,6 +6,7 @@
     <title>Form Input Matakuliah</title>
 </head>
 <body>
+    <?php echo validation_errors(); ?>
     <center>
     <form action= "http://localhost/pustaka_ku/matakuliah/cetak" method="post">
     <table>
